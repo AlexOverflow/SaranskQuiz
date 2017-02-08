@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "994432954838",
+    "firebase_url": "https://saranskquiz.firebaseio.com",
+    "project_id": "saranskquiz",
+    "storage_bucket": "saranskquiz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994432954838:android:71026a4cd7db4ae8",
+        "android_client_info": {
+          "package_name": "ru.techcoll.saranskquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994432954838-0g3vvug6bsmodqkhkv2fmkril0th51p1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHyJl8HOllA7vRAVgxkJxEIxFSNixEpT8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

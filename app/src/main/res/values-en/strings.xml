@@ -1,0 +1,6 @@
+<resources>
+        <string name="app_name">SaranskQuiz</string>
+        <string name="new_game">Новая игра</string>
+        <string name="contiute_game">Продолжить игру</string>
+        <string name="exit">Выход</string>
+</resources>
