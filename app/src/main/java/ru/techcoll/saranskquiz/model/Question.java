@@ -1,25 +1,32 @@
 package ru.techcoll.saranskquiz.model;
 
-import java.util.ArrayList;
-import java.util.HashMap;
+import java.io.Serializable;
 import java.util.List;
+
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 
-public class Question {
+public class Question implements Serializable {
+
     @SerializedName("image")
     @Expose
     private String image;
-    @SerializedName("question_list")
+    @SerializedName("true_answer")
     @Expose
-    private ArrayList<String> question_list;
+    private Answer trueAnswer;
+    @SerializedName("incorrect_answers")
+    @Expose
+    private List<Answer> answers;
     @SerializedName("text")
     @Expose
     private String text;
-    @SerializedName("uuid")
+   // @SerializedName("question_type")
+   // @Expose
+   // private QuestionType questionType;
+    @SerializedName("objectId")
     @Expose
-    private String uuid;
+    private String id;
 
     public String getImage() {
         return image;
@@ -29,12 +36,12 @@ public class Question {
         this.image = image;
     }
 
-    public ArrayList<String> getQuestionList() {
-        return question_list;
+    public List<Answer> getAnswers() {
+        return answers;
     }
 
-    public void setQuestion_list(ArrayList<String> questionList) {
-        this.question_list = questionList;
+    public void setAnswers(List<Answer> answers) {
+        this.answers = answers;
     }
 
     public String getText() {
@@ -45,21 +52,23 @@ public class Question {
         this.text = text;
     }
 
-    public String getUuid() {
-        return uuid;
+    public String getId() {
+        return id;
     }
 
-    public void setUuid(String uuid) {
-        this.uuid = uuid;
+    public void setId(String id) {
+        this.id = id;
     }
+
+
 
     @Override
     public String toString() {
         return "Question{" +
                 "image='" + image + '\'' +
-                ", questionList=" + question_list +
+                ", answers=" + answers +
                 ", text='" + text + '\'' +
-                ", uuid='" + uuid + '\'' +
+                ", id='" + id + '\'' +
                 '}';
     }
 }
