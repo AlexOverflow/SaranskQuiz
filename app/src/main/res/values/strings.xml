@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">SaranskQuiz</string>
-    <string name="new_game">Новая игра</string>
-    <string name="contiute_game">Продолжить игру</string>
-    <string name="exit">Выход</string>
+    <string name="new_game">New Game</string>
+    <string name="contiute_game">Continue game</string>
+    <string name="exit">Exit</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

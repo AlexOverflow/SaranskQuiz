@@ -39,68 +39,21 @@ public class MenuActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
         ButterKnife.bind(this);
-
-        new TestTask().execute();
-        GameDataManager dataManager = GameDataManager.getInstance();
-        List<Quiz> list = dataManager.getQuizList();
-        for(Quiz q : list){
-            Log.e("Back", q.toString());
-        }
-
-
-
-
-
-
-
     }
 
 
     @OnClick(R.id.new_game_button)
     public void createNewGame(){
-        Intent i = new Intent(this, QuizSwitcherActivity.class);
-        startActivityForResult(i, 1);
+        Intent i = new Intent(this, GameQuizActivity.class);
+        startActivity(i);
     }
 
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if(data == null){ return;}
-       String id = data.getStringExtra("objectId");
-       Intent intent = new Intent(this, GameQuizActivity.class);
-        intent.putExtra("objectId", id);
-        startActivity(intent);
-    }
+
 }
 
 
 
-class TestTask extends AsyncTask<Void, Void, Void> {
 
-    @Override
-    protected void onPreExecute() {
-        super.onPreExecute();
-    }
-
-    @Override
-    protected Void doInBackground(Void... params) {
-        DataManager manager = new DataManager();
-        List<Quiz> list = new ArrayList<>();
-        try {
-            list = manager.getQuizList();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        Log.e("Backendless", list.get(0).toString());
-        GameDataManager dataManager = GameDataManager.getInstance();
-        dataManager.setQuizList(list);
-        return  null;
-    }
-
-    @Override
-    protected void onPostExecute(Void result) {
-        super.onPostExecute(result);
-    }
-}
 
 
 

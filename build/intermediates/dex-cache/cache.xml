@@ -70,7 +70,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="ba3c92b1dee178e1b7845344444784ddb9e27b89">
+        sha1="024a6861662502b96a572b609889ffcd80aac398">
         <dex dex="/home/alex/Projects/saransk2/SaranskQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_4eea977e9d1b6b5915e615709100689538fc4aee/classes.dex" />
     </item>
     <item
@@ -79,7 +79,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="406fdb98805132464b99e59eed9e899c9f0ae567">
+        sha1="da4718c2a9e4805e311c9f1bbc3594c8841817eb">
         <dex dex="/home/alex/Projects/saransk2/SaranskQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f482fe872e72097e56fb219642d79255eb74d728/classes.dex" />
     </item>
     <item

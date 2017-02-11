@@ -32,6 +32,7 @@ public class GameQuizActivity extends AppCompatActivity {
     private Quiz quiz = null;
     private List<Question> questionList;
     private int questionIndex = 0;
+    private int trueQuestion = 0;
 
 
     @BindView(R.id.question_text)
@@ -100,15 +101,22 @@ public class GameQuizActivity extends AppCompatActivity {
 
     @OnClick({R.id.answer1, R.id.answer2, R.id.answer3, R.id.answer4})
     public void click(Button b){
+        if(questionIndex < 8) {
         StringBuilder builder = new StringBuilder();
         if(b.getText().equals(questionList.get(questionIndex).getTrueAnswer().getText())){
             builder.append("correct!");
+            trueQuestion++;
         }else builder.append("incorrect!");
         Toast tost = Toast.makeText(this, builder.toString(), Toast.LENGTH_SHORT);
         tost.show();
         questionIndex++;
-        
-
+            setButtonText(questionList.get(questionIndex));
+            loadImage(questionList.get(questionIndex).getImage());
+            textView.setText(questionList.get(questionIndex).getText());
+        }else{
+            Toast toast = Toast.makeText(this, "True answers : " + trueQuestion, Toast.LENGTH_SHORT);
+            toast.show();
+        }
 
     }
 
@@ -125,8 +133,7 @@ public class GameQuizActivity extends AppCompatActivity {
     public void loadImage(String url) {
         Picasso.with(GameQuizActivity.this)
                 .load(url)
-                .placeholder(R.drawable.error_pic_quiz)
-                .error(R.drawable.error_pic_quiz)
+
                 .into(imageView);
     }
 
