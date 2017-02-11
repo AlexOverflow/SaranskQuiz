@@ -21,6 +21,7 @@ import ru.techcoll.saranskquiz.model.FireBaseDataStorage;
 import ru.techcoll.saranskquiz.model.Question;
 import ru.techcoll.saranskquiz.model.Quiz;
 import ru.techcoll.saranskquiz.service.DataManager;
+import ru.techcoll.saranskquiz.service.GameDataManager;
 
 public class MenuActivity extends AppCompatActivity {
 
@@ -40,6 +41,11 @@ public class MenuActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         new TestTask().execute();
+        GameDataManager dataManager = GameDataManager.getInstance();
+        List<Quiz> list = dataManager.getQuizList();
+        for(Quiz q : list){
+            Log.e("Back", q.toString());
+        }
 
 
 
@@ -85,6 +91,8 @@ class TestTask extends AsyncTask<Void, Void, Void> {
             e.printStackTrace();
         }
         Log.e("Backendless", list.get(0).toString());
+        GameDataManager dataManager = GameDataManager.getInstance();
+        dataManager.setQuizList(list);
         return  null;
     }
 

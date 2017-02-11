@@ -8,10 +8,10 @@ import ru.techcoll.saranskquiz.model.Quiz;
 
 public interface QuizApiService {
 
-    @GET("Quizes")
+    @GET("Quiz")
     Call<DataManager.QuizList> getQuizes();
 
-    @GET("Quizes/{objectId}")
+    @GET("Quiz/{objectId}")
     Call<Quiz> getQuiz(@Path("objectId") String id);
 
 }

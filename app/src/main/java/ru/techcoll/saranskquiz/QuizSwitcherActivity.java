@@ -34,6 +34,9 @@ public class QuizSwitcherActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz_switcher);
 
+        TestTask task = new TestTask();
+        task.execute();
+
         pager = (ViewPager) findViewById(R.id.pager);
         pagerAdapter = new MyFragmentPagerAdapter(getSupportFragmentManager());
         pager.setAdapter(pagerAdapter);
@@ -89,6 +92,7 @@ public class QuizSwitcherActivity extends AppCompatActivity {
 
         @Override
         protected List<Quiz> doInBackground(Void... params) {
+            Log.e("quweue", "gfhhghghghghghghg");
             DataManager manager = new DataManager();
             List<Quiz> list = new ArrayList<>();
             try {
@@ -99,6 +103,8 @@ public class QuizSwitcherActivity extends AppCompatActivity {
             Log.e("Backendless", list.get(0).toString());
 
             pageCount = QuizList.size();
+
+
 
             GameDataManager gameDataManager = GameDataManager.getInstance();
             gameDataManager.setQuizList(list);

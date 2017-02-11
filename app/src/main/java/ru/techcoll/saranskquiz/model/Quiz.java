@@ -9,7 +9,7 @@ import java.util.List;
 
 public class Quiz implements Serializable {
 
-    @SerializedName("name")
+    @SerializedName("title")
     @Expose
     private String name;
 

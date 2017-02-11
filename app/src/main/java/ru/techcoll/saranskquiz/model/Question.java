@@ -60,7 +60,13 @@ public class Question implements Serializable {
         this.id = id;
     }
 
+    public Answer getTrueAnswer() {
+        return trueAnswer;
+    }
 
+    public void setTrueAnswer(Answer trueAnswer) {
+        this.trueAnswer = trueAnswer;
+    }
 
     @Override
     public String toString() {

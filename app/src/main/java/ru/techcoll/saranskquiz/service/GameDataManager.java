@@ -1,5 +1,7 @@
 package ru.techcoll.saranskquiz.service;
 
+import android.util.Log;
+
 import java.util.List;
 
 import ru.techcoll.saranskquiz.model.CurrentQuiz;
@@ -30,7 +32,7 @@ public class GameDataManager {
     }
 
     public void setCurrentQuiz(CurrentQuiz currentQuiz) {
-        this.currentQuiz = currentQuiz;
+        ourInstance.setCurrentQuiz(currentQuiz);
     }
 
     public static GameDataManager getOurInstance() {
@@ -42,6 +44,7 @@ public class GameDataManager {
     }
 
     public void setQuizList(List<Quiz> quizList) {
-        this.quizList = quizList;
+        Log.e("LOG", quizList.toString());
+        ourInstance.setQuizList(quizList);
     }
 }

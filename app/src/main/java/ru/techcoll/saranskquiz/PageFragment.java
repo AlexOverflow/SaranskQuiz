@@ -3,6 +3,7 @@ package ru.techcoll.saranskquiz;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,6 +18,12 @@ import ru.techcoll.saranskquiz.model.Quiz;
 
 
 public class PageFragment extends Fragment {
+
+
+    static{
+
+
+    }
 
     static final String ARGUMENT_PAGE_NUMBER = "arg_page_number";
 
@@ -44,8 +51,9 @@ public class PageFragment extends Fragment {
         super.onCreate(savedInstanceState);
         pageNumber = getArguments().getInt(ARGUMENT_PAGE_NUMBER);
 
-        QList = gameDataManager.getQuizList();
-
+        while(gameDataManager.getQuizList() == null){
+            Log.e("dd", "WAIT");
+        }
         currQuiz = QList.get(pageNumber);
 
     }
