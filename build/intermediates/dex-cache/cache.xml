@@ -3,309 +3,309 @@
 
     <item
         is-multidex="true"
-        jar="/home/alex/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.0.1/57f850a6b317e5582f1dbaff10a9e7d7e1fcdcfb/rxjava-2.0.1.jar"
+        jar="C:\Users\user\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="57f850a6b317e5582f1dbaff10a9e7d7e1fcdcfb">
-        <dex dex="/home/alex/Projects/SaranskQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/rxjava-2.0.1_181d455c62de65f7a40f64e65abfa4898601443a/classes.dex" />
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="C:\SQuiz\SaranskQuiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.1_26b4a1c054469f7efd7e8d632cf7cbd7cf33eccb\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/alex/Projects/SaranskQuiz/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jar="C:\SQuiz\SaranskQuiz\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/alex/Projects/SaranskQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.0_e1873bca36da859cc1dbbfaa9a97d0e8a4a06b39/classes.dex" />
+        sha1="09e8674c8dbbf7889b448479a157d6d5a7abb942">
+        <dex dex="C:\SQuiz\SaranskQuiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d20bb3869850f5c0d9134e383eb4cc03836e10dc\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/alex/Projects/SaranskQuiz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
-        <dex dex="/home/alex/Projects/SaranskQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.0_c46e1d6df1c1565de69ed8df48457d2c9e833ac5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/alex/Projects/SaranskQuiz/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
-        <dex dex="/home/alex/Projects/SaranskQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.0.1_ad10a40bf1e6b8bc54c8414d6c9ea174928f8c23/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/alex/Projects/SaranskQuiz/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="/home/alex/Projects/SaranskQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_0e9ffefd532b746d80765a6bbdd740374680921d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/alex/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.0/14b8c877d98005ba3941c9257cfe09f6ed0e0d74/reactive-streams-1.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="14b8c877d98005ba3941c9257cfe09f6ed0e0d74">
-        <dex dex="/home/alex/Projects/SaranskQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/reactive-streams-1.0.0_d18808e09f7d48108767a31697869dababf2f75e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/alex/Projects/SaranskQuiz/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
-        <dex dex="/home/alex/Projects/SaranskQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.0_0e40af178023250cb74819a56bc9cf689b296b57/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/alex/Projects/SaranskQuiz/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/10.0.1/jars/classes.jar"
+        jar="C:\SQuiz\SaranskQuiz\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
-        <dex dex="/home/alex/Projects/SaranskQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-10.0.1_bc2390bd9f1e0aa9129b192a757acd392af31b36/classes.dex" />
+        <dex dex="C:\SQuiz\SaranskQuiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-10.0.1_9c45181fff77ad02f2e8212a5d37aa5d512a2983\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/alex/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jar="C:\SQuiz\SaranskQuiz\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
-        <dex dex="/home/alex/Projects/SaranskQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_63ac6babcc2c045cc4ffa83d010698fab0329399/classes.dex" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\SQuiz\SaranskQuiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.1_4790bd8a0524033e75fcfd57a6a91ed44f931b1a\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/alex/Projects/SaranskQuiz/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="89d36dde0a2f5cec7cc15299e36bd3134f354bce">
-        <dex dex="/home/alex/Projects/SaranskQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_0286734c6a7b488bbd946e8138e3147fcfaa3828/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/alex/Projects/SaranskQuiz/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1a53112785bec9f6da82c52ebdd84b7b5cd8f91e">
-        <dex dex="/home/alex/Projects/SaranskQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_af2f0244e855a28ddba2e3f91d06ba18d7b2c9fd/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/alex/Projects/SaranskQuiz/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.5.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="19f281a785ca0eb5f6799fc7bf7ca199a9ca1e8b">
-        <dex dex="/home/alex/Projects/SaranskQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.jakewharton-butterknife-8.5.1_f2a34302da8e8aff89681f0dad9bd1d93a602818/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/alex/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.1/b9d63507329a7178e026fc334f87587ee5070ac5/gson-2.6.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b9d63507329a7178e026fc334f87587ee5070ac5">
-        <dex dex="/home/alex/Projects/SaranskQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.6.1_176b2fa3b39ae0c33809e0cb727caed0a6c9d8ca/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/alex/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
-        <dex dex="/home/alex/Projects/SaranskQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.0_73362d2fb810b638d2ec3b14dcedf4a892ed7620/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/alex/Projects/SaranskQuiz/app/build/intermediates/exploded-aar/io.reactivex.rxjava2/rxandroid/2.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4119ea97a7191ff9b8f33b534ea220448f62f491">
-        <dex dex="/home/alex/Projects/SaranskQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.reactivex.rxjava2-rxandroid-2.0.1_63df0598200cd1647d216ca78468b535b8632b32/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/alex/Projects/SaranskQuiz/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
-        <dex dex="/home/alex/Projects/SaranskQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-10.0.1_693f4917c8deae18bcab3547fe72241b01571562/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/alex/Projects/SaranskQuiz/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="/home/alex/Projects/SaranskQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_21fd0e0b8000852fac70d1042bec0f969916bdf2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/alex/Projects/SaranskQuiz/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="/home/alex/Projects/SaranskQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_ee1ac542fd180d9245dc11b41bf575cb06bd06e2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/alex/Projects/SaranskQuiz/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="/home/alex/Projects/SaranskQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_adcc60cee9938e477aadafbfe7ba2726119900b8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/alex/Projects/SaranskQuiz/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
-        <dex dex="/home/alex/Projects/SaranskQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-10.0.1_7085ab90b09f571f304d9df2d3c007b5c49d1752/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/alex/Projects/SaranskQuiz/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
-        <dex dex="/home/alex/Projects/SaranskQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-10.0.1_4a5c0aef16d6d57655e79c03519b136dc0792c8e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/alex/Projects/SaranskQuiz/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/10.0.1/jars/classes.jar"
+        jar="C:\SQuiz\SaranskQuiz\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
-        <dex dex="/home/alex/Projects/SaranskQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-10.0.1_2141d6b3a188c49aa065ed896da31b8f5e95ff4a/classes.dex" />
+        <dex dex="C:\SQuiz\SaranskQuiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-10.0.1_824ab994072a7b585796b32a5f0f7b8272cc5da3\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/alex/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.0.0/49eb3ad545e7701234e4dd83db8dc1344b577f23/converter-gson-2.0.0.jar"
+        jar="C:\SQuiz\SaranskQuiz\app\build\intermediates\exploded-aar\io.reactivex.rxjava2\rxandroid\2.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="49eb3ad545e7701234e4dd83db8dc1344b577f23">
-        <dex dex="/home/alex/Projects/SaranskQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.0.0_adc71e68f3224b1356998ea20e27f0b159fea210/classes.dex" />
+        sha1="4119ea97a7191ff9b8f33b534ea220448f62f491">
+        <dex dex="C:\SQuiz\SaranskQuiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\io.reactivex.rxjava2-rxandroid-2.0.1_0aa37246683e2f4dee8a01be14eb4e43d500c2f2\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/alex/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.5.1/bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc/butterknife-annotations-8.5.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc">
-        <dex dex="/home/alex/Projects/SaranskQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-annotations-8.5.1_ff096c59ede316657ea8f71ffb3fe2b18ade9983/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/alex/Projects/SaranskQuiz/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="/home/alex/Projects/SaranskQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_941ce301418ac8a9bede6cd6a4b568e5e049c058/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/alex/Projects/SaranskQuiz/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
-        <dex dex="/home/alex/Projects/SaranskQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-10.0.1_3be3edb07e3cc7a9e706f366bbf97e6e8f305b7d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/alex/Projects/SaranskQuiz/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="/home/alex/Projects/SaranskQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_9e5a8c358ada7930260bb7862ec547a081fdc903/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/alex/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
-        <dex dex="/home/alex/Projects/SaranskQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_d7a985ea5eff396043456e4e5b041479c4d725b1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/alex/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
-        <dex dex="/home/alex/Projects/SaranskQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_7259af7cd31a8cdc10a083c7bc9f15536bb26067/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/alex/Projects/SaranskQuiz/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jar="C:\SQuiz\SaranskQuiz\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
-        <dex dex="/home/alex/Projects/SaranskQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.0.1_7ba9fd2e857a75788237f6b357af5b2cf2689bfa/classes.dex" />
+        <dex dex="C:\SQuiz\SaranskQuiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.0.1_d8fb26e153f98d54d1182f45c7de82d5550818d1\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/alex/Projects/SaranskQuiz/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
+        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
-        <dex dex="/home/alex/Projects/SaranskQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-10.0.1_090ea2692af52759ff1807a112dd065883ed1847/classes.dex" />
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="C:\SQuiz\SaranskQuiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.8.0_a37a80f4648c480c2fd8febcd3a4bbad77a695da\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/alex/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="/home/alex/Projects/SaranskQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_285e701d692964e81dee5f1f2382e874b0d0c28d/classes.dex" />
+        <dex dex="C:\SQuiz\SaranskQuiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_a69735fb31405abb6c5b972e1b2bb4f918f620e8\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/alex/Projects/SaranskQuiz/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
+        jar="C:\SQuiz\SaranskQuiz\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
+        <dex dex="C:\SQuiz\SaranskQuiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-10.0.1_a413b687556ac363be3d095f13bff09aa8bbf34b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\SQuiz\SaranskQuiz\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="C:\SQuiz\SaranskQuiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-10.0.1_b101d9a86346cb27946ccff9dff5aaba47267a5f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.6.1\b9d63507329a7178e026fc334f87587ee5070ac5\gson-2.6.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9d63507329a7178e026fc334f87587ee5070ac5">
+        <dex dex="C:\SQuiz\SaranskQuiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.6.1_c8170208a1f64d9e159b6f10fd65867add9501f0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\SQuiz\SaranskQuiz\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="C:\SQuiz\SaranskQuiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.1_c626bee05046cc4ac5fca1285c0eecb0c9815848\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\SQuiz\SaranskQuiz\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="C:\SQuiz\SaranskQuiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.1_d64d702602ab6f4d40e789be6b85aafbfdf2b97f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="C:\SQuiz\SaranskQuiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.0_5b0dfb1c7f23309c284726b7b11e796d12764cbd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\SQuiz\SaranskQuiz\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="C:\SQuiz\SaranskQuiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.1_cf2e6f7e1b8094de5273170d775a14200333879a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\SQuiz\SaranskQuiz\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f97c0e715d5a4432d6fc8b0d899248fe7a9aa7af">
+        <dex dex="C:\SQuiz\SaranskQuiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_df78404571a6c8da42a4a2a4be0c22738e2aee81\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\SQuiz\SaranskQuiz\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="C:\SQuiz\SaranskQuiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.1_7330107fe5f18d67fe8d19e00a62ab24bd03595d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\SQuiz\SaranskQuiz\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="C:\SQuiz\SaranskQuiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-10.0.1_25fd603cd59e0154584f7923cb25d7071a413a6a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.0.0\49eb3ad545e7701234e4dd83db8dc1344b577f23\converter-gson-2.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="49eb3ad545e7701234e4dd83db8dc1344b577f23">
+        <dex dex="C:\SQuiz\SaranskQuiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.0.0_90b2ae0eaa7a979f4d5d3fb9804eda635daffb07\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="C:\SQuiz\SaranskQuiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.1.0_ff5f7d473555044c33b7798b022967447b0bbc07\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\SQuiz\SaranskQuiz\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="C:\SQuiz\SaranskQuiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.1_a9e65fa4155845b7da6ceaeb89bd89a0cec31c27\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.5.1\bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc\butterknife-annotations-8.5.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc">
+        <dex dex="C:\SQuiz\SaranskQuiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-annotations-8.5.1_cebd209641a4fc35be211acddd8da57b1cc215a9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\org.reactivestreams\reactive-streams\1.0.0\14b8c877d98005ba3941c9257cfe09f6ed0e0d74\reactive-streams-1.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="14b8c877d98005ba3941c9257cfe09f6ed0e0d74">
+        <dex dex="C:\SQuiz\SaranskQuiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\reactive-streams-1.0.0_24a1adfb3afc0fc0957be096be5a499f6810b976\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\SQuiz\SaranskQuiz\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="C:\SQuiz\SaranskQuiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.0.1_03cdc26cd952076a6d86562c86e8f067d4f342ee\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\SQuiz\SaranskQuiz\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="C:\SQuiz\SaranskQuiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.1_90e4fb03e7ed7f8f5e8ad7a067f05439432ceaa5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\io.reactivex.rxjava2\rxjava\2.0.1\57f850a6b317e5582f1dbaff10a9e7d7e1fcdcfb\rxjava-2.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="57f850a6b317e5582f1dbaff10a9e7d7e1fcdcfb">
+        <dex dex="C:\SQuiz\SaranskQuiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-2.0.1_e2c21a1cf55895d92905056be692d58a6114cce2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\SQuiz\SaranskQuiz\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="C:\SQuiz\SaranskQuiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-10.0.1_b527d5f1703e23d7a300aee21bf3b9a1e225bdb8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\SQuiz\SaranskQuiz\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="C:\SQuiz\SaranskQuiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-10.0.1_e21dac97c1a9a50dd1bd11b249c33e43794897dd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\SQuiz\SaranskQuiz\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="25438f55fc6d906a0e72f30b21487541430ede43">
-        <dex dex="/home/alex/Projects/SaranskQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-10.0.1_091304fa4894f599a1fee67b6dc23378100be86f/classes.dex" />
+        <dex dex="C:\SQuiz\SaranskQuiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-10.0.1_9112925a16a889f8326433b7a6db82e4638ff5c5\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/alex/Projects/SaranskQuiz/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
+        jar="C:\SQuiz\SaranskQuiz\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="C:\SQuiz\SaranskQuiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.1_047d9d417b6cb96ef1bf0730a6119aa08e4260bb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\SQuiz\SaranskQuiz\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.5.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19f281a785ca0eb5f6799fc7bf7ca199a9ca1e8b">
+        <dex dex="C:\SQuiz\SaranskQuiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jakewharton-butterknife-8.5.1_c074d4fd8449b6545d94d54c491ac2fadc8a10c9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\SQuiz\SaranskQuiz\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
-        <dex dex="/home/alex/Projects/SaranskQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-10.0.1_592d68d0ff96a233d069f6f31238a3f3799a773f/classes.dex" />
+        <dex dex="C:\SQuiz\SaranskQuiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-10.0.1_6c1048318d3ffe5f73e99ba69ab3ab8057c2fc87\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\SQuiz\SaranskQuiz\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="C:\SQuiz\SaranskQuiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.1_62ce8502fa063fffc45cf1c45090011d0cd4d24c\classes.dex" />
     </item>
 
 </items>

@@ -16,6 +16,7 @@ import java.util.List;
 
 import ru.techcoll.saranskquiz.model.Quiz;
 import ru.techcoll.saranskquiz.service.DataManager;
+import ru.techcoll.saranskquiz.service.GameDataManager;
 
 public class QuizSwitcherActivity extends AppCompatActivity {
 
@@ -97,22 +98,19 @@ public class QuizSwitcherActivity extends AppCompatActivity {
             }
             Log.e("Backendless", list.get(0).toString());
 
-            return list;
+            pageCount = QuizList.size();
+
+            GameDataManager gameDataManager = GameDataManager.getInstance();
+            gameDataManager.setQuizList(list);
+
+            return null;
         }
 
         @Override
         protected void onPostExecute(List<Quiz> result) {
 
             super.onPostExecute(result);
-            QuizList = result;
 
         }
-    }
-
-    public List<Quiz> getQuizList() {
-
-        pageCount = QuizList.size();
-
-        return QuizList;
     }
 }

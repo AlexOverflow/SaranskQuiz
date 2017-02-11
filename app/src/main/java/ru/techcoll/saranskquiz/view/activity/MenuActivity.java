@@ -15,6 +15,7 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import ru.techcoll.saranskquiz.QuizSwitcherActivity;
 import ru.techcoll.saranskquiz.R;
 import ru.techcoll.saranskquiz.model.FireBaseDataStorage;
 import ru.techcoll.saranskquiz.model.Question;
@@ -29,7 +30,7 @@ public class MenuActivity extends AppCompatActivity {
     @BindView(R.id.contiute_game_button) Button contiuteGameButton;
     @BindView(R.id.exit_button) Button exitButton;
 
-    @BindView(R.id.game_count) TextView gameCountTextView;
+    //@BindView(R.id.game_count) TextView gameCountTextView;
 
 
     @Override
@@ -51,7 +52,7 @@ public class MenuActivity extends AppCompatActivity {
 
     @OnClick(R.id.new_game_button)
     public void createNewGame(){
-        Intent i = new Intent(this, QuizeSwitcherActivity.class);
+        Intent i = new Intent(this, QuizSwitcherActivity.class);
         startActivityForResult(i, 1);
     }
 

@@ -17,6 +17,8 @@ public class Quiz implements Serializable {
     @Expose
     private List<Question> questionList;
 
+    private String image;
+
     public List<Question> getQuestionList() {
         return questionList;
     }
@@ -39,5 +41,9 @@ public class Quiz implements Serializable {
                 "name='" + name + '\'' +
                 ", questionList=" + questionList +
                 '}';
+    }
+
+    public String getImage() {
+        return image;
     }
 }

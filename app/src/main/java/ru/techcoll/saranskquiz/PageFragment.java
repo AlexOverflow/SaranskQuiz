@@ -6,9 +6,14 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
+import android.widget.ImageView;
 
-import java.util.Random;
+import com.squareup.picasso.Picasso;
+
+import java.util.List;
+
+import ru.techcoll.saranskquiz.service.GameDataManager;
+import ru.techcoll.saranskquiz.model.Quiz;
 
 
 public class PageFragment extends Fragment {
@@ -16,8 +21,10 @@ public class PageFragment extends Fragment {
     static final String ARGUMENT_PAGE_NUMBER = "arg_page_number";
 
     int pageNumber;
-    //заменить на backQuiz - картинку (ссылку на викторину)
-    int backColor;
+    List<Quiz> QList;
+    GameDataManager gameDataManager = GameDataManager.getInstance();
+    Quiz currQuiz;
+
 
     public PageFragment() {
         // Required empty public constructor
@@ -37,10 +44,10 @@ public class PageFragment extends Fragment {
         super.onCreate(savedInstanceState);
         pageNumber = getArguments().getInt(ARGUMENT_PAGE_NUMBER);
 
-        //убрать
-        Random rnd = new Random();
-        //вставить картинку, обозначающую конкретную викторину
-        backColor = Color.argb(40, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256));
+        QList = gameDataManager.getQuizList();
+
+        currQuiz = QList.get(pageNumber);
+
     }
 
     @Override
@@ -48,11 +55,13 @@ public class PageFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_page, null);
 
-        TextView tvPage = (TextView) view.findViewById(R.id.tvPage);
-        tvPage.setText("Quiz "+ pageNumber);
+        ImageView ivPicQuiz = (ImageView) view.findViewById(R.id.ivPicQuiz);
 
-        //изменить метод, поместить картинку викторины
-        tvPage.setBackgroundColor(backColor);
+        Picasso.with(getActivity())
+                .load(currQuiz.getImage())
+                .placeholder(R.drawable.error_pic_quiz)
+                .error(R.drawable.error_pic_quiz)
+                .into(ivPicQuiz);
 
         return view;
     }
