@@ -67,7 +67,7 @@ class TestTask extends AsyncTask<Void, Void, Void> {
         DataManager manager = new DataManager();
         List<Quiz> list = new ArrayList<>();
         try {
-            list = manager.getQuizList();
+            list.add(manager.getQuiz("3BD69120-9283-8C76-FFBD-24E52A941B00"));
         } catch (IOException e) {
             e.printStackTrace();
         }

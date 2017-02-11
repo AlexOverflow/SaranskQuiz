@@ -30,6 +30,11 @@ public class DataManager {
         return call.execute().body().getData();
     }
 
+    public Quiz getQuiz(String id) throws IOException {
+        Call<Quiz> call =  quizApiService.getQuiz(id);
+        return call.execute().body();
+    }
+
 
 
 
