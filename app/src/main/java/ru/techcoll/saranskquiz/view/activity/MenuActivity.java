@@ -1,5 +1,6 @@
 package ru.techcoll.saranskquiz.view.activity;
 
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -12,6 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
+import butterknife.ButterKnife;
 import butterknife.OnClick;
 import ru.techcoll.saranskquiz.R;
 import ru.techcoll.saranskquiz.model.FireBaseDataStorage;
@@ -34,6 +36,7 @@ public class MenuActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
+        ButterKnife.bind(this);
 
         new TestTask().execute();
 
@@ -48,9 +51,18 @@ public class MenuActivity extends AppCompatActivity {
 
     @OnClick(R.id.new_game_button)
     public void createNewGame(){
-
+        Intent i = new Intent(this, QuizeSwitcherActivity.class);
+        startActivityForResult(i, 1);
     }
 
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if(data == null){ return;}
+       String id = data.getStringExtra("objectId");
+       Intent intent = new Intent(this, GameQuizActivity.class);
+        intent.putExtra("objectId", id);
+        startActivity(intent);
+    }
 }
 
 
@@ -67,7 +79,7 @@ class TestTask extends AsyncTask<Void, Void, Void> {
         DataManager manager = new DataManager();
         List<Quiz> list = new ArrayList<>();
         try {
-            list.add(manager.getQuiz("3BD69120-9283-8C76-FFBD-24E52A941B00"));
+            list = manager.getQuizList();
         } catch (IOException e) {
             e.printStackTrace();
         }

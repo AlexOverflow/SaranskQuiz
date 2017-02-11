@@ -2,6 +2,7 @@ package ru.techcoll.saranskquiz.service;
 
 import java.util.List;
 
+import ru.techcoll.saranskquiz.model.CurrentQuiz;
 import ru.techcoll.saranskquiz.model.Quiz;
 
 
